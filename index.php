@@ -14,5 +14,9 @@ echo $dogFood->getFood().'<br>';
 
 echo $oscar->feed($dogFood).'<br>';
 
-echo "Dogs have " . \IcyApril\ChapterTwo\Dog::legCount() . " legs." . PHP_EOL;
+echo "Dogs have " . \IcyApril\ChapterTwo\Dog::legCount() . " legs." . '<br>';
+
+$whiskers = new \IcyApril\ChapterTwo\Cat();
+
+echo $whiskers->talk().PHP_EOL;
 ?>
